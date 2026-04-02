@@ -109,6 +109,8 @@
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-4A90D9?style=flat-square&logo=google&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-FF6B35?style=flat-square&logo=google&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![OpenClaw](https://img.shields.io/badge/🦞_OpenClaw-FF4500?style=flat-square&logoColor=white)
 
