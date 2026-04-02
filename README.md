@@ -110,7 +110,7 @@
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-
+![OpenClaw](https://img.shields.io/badge/OpenClaw-FF4500?style=flat-square&logo=lobster&logoColor=white)
 ---
 
 ## 📜 Certifications
