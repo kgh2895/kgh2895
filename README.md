@@ -145,7 +145,3 @@
 ---
 
 <div align="center">
-
-*"Building AI that understands the physical world."*
-
-</div>
