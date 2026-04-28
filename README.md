@@ -45,7 +45,7 @@
 
 ---
 
-### 👴 Elder Ease *(NVIDIA AI Bootcamp 2025, 🥇 1위)*
+### 👴 Elder Ease *(NVIDIA AI Bootcamp 2025, 🥇 1위 /	경기도 AI 테크데이 2025, 🥉 우수상)*
 > 디지털 소외계층을 위한 AI 키오스크 접근성 보조 시스템
 
 - 얼굴 감지 + 연령 추정 CV 파이프라인 → 고령 사용자 자동 인식
