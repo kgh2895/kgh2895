@@ -1,12 +1,10 @@
 <div align="center">
 
-# 👋 김근호 (Geunho Kim)
+# 김근호 (Geunho Kim) 🧑‍💻
 
 **AI/ML Engineer in Progress**
 
 > *"컴퓨터공학을 전공하며 AI/ML, Computer Vision, LLM 응용을 중심으로 공부하고 있는 학부생입니다."*
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkgh2895&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
 
 </div>
 
@@ -30,8 +28,9 @@
 
 | Date | Event | Result |
 |------|-------|--------|
-| 2026.04 ~ | **현대자동차 H-모빌리티 클래스** (자율주행 트랙) | ✅ 합격 · 참가 중 |
-| 2026.05 ~ | **Dacon 모기 비행 궤적 예측 AI 경진대회** | 참가 중 |
+| 2026.06 | **한국외국어대학교 G-RISE 캡스톤디자인 경진대회** | 🏅 G-RISE 단장상 수상 |
+| 2026.04 ~ | **현대자동차 H-모빌리티 클래스** (자율주행 판단 트랙) | ✅ 합격 · 참가 중 |
+| 2026.05 ~ | **Dacon 모기 비행 궤적 예측 AI 경진대회** | 참가 |
 | 2026.04 | **Dacon 스마트 창고 출고 지연 예측 AI 경진대회** | 상위 2.9% |
 | 2026.03 | **Dacon 월간 구조물 안정성 물리 추론 AI 경진대회** | 상위 1% |
 | 2025 | **경기도 AI 테크데이** | 🥉 우수상 |
@@ -46,7 +45,8 @@
 
 - 음성 답변을 Whisper STT로 텍스트화 → LLM-as-a-Judge로 코드 이해도 평가
 - 단순 정답 여부가 아닌 **실제 이해 여부**를 검증하는 교육 보조 시스템
-- `Whisper` `LLM` `Chain-of-Thought` `Prompt Engineering` `React`
+- 오픈소스 LLM(**EXAONE 3.5 7.8B · Mi:dm 2.0 11.5B · Qwen3 14B**)을 **Curriculum SFT**로 파인튜닝
+- `Whisper` `LLM` `Curriculum SFT` `Fine-tuning` `LLM-as-a-Judge` `Chain-of-Thought` `Prompt Engineering`
 - 멘토: 브랜치앤바운드 이승용 대표님
 
 ---
@@ -114,6 +114,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![LM Studio](https://img.shields.io/badge/LM_Studio-4A26C9?style=flat-square&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
@@ -160,17 +161,6 @@
 
 `Autonomous Driving` `Computer Vision` `LLM Application` `Multimodal AI`  
 `Bio-AI` `Aerospace` `Big Data Analytics` `Robotics` `Data Engineering`
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kgh2895&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kgh2895&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
