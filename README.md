@@ -75,9 +75,9 @@
 ### 📝 Paraphraser *(Personal Project)*
 > AI 기반 글쓰기 교정 & 패러프레이징 도구
 
-- Streamlit과 OpenAI API를 활용한 AI 기반 글쓰기 교정 및 패러프레이징 도구
-- 사용자가 **한 문장씩 직접 확인하며** 자신의 문장으로 재구성하는 수동 패러프레이징 가이드 기능
-- 논문·보고서 작성 시 표절률 감소 및 개인 문체 유지에 특화
+- Streamlit과 OpenAI API로 만든 글쓰기 교정 & 패러프레이징 보조 도구
+- AI가 문법·번역투 교정안과 문장 구조 변경 예시·유의어 풀을 제시 → 사용자가 참고해 **한 문장씩 직접 재작성**
+- `session_state` 기반 상태 관리 + 다음 문장 백그라운드 prefetch로 대기시간 최소화
 - `Streamlit` `OpenAI API` `Prompt Engineering` `NLP` `Python`
 
 ---
