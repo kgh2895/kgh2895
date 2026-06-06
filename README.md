@@ -72,13 +72,14 @@
 
 ---
 
-### 📝 Paraphraser *(Personal Project)*
+### 📝 [Paraphraser](https://github.com/kgh2895/Paraphraser) *(Personal Project)*
 > AI 기반 글쓰기 교정 & 패러프레이징 도구
 
 - Streamlit과 OpenAI API로 만든 글쓰기 교정 & 패러프레이징 보조 도구
 - AI가 문법·번역투 교정안과 문장 구조 변경 예시·유의어 풀을 제시 → 사용자가 참고해 **한 문장씩 직접 재작성**
-- `session_state` 기반 상태 관리 + 다음 문장 백그라운드 prefetch로 대기시간 최소화
-- `Streamlit` `OpenAI API` `Prompt Engineering` `NLP` `Python`
+- Responses API와 Pydantic 스키마로 모델 응답 검증
+- `session_state` 기반 상태 관리 + `Future` 기반 다음 문장 prefetch로 체감 대기 감소
+- `Streamlit` `OpenAI API` `Pydantic` `Prompt Engineering` `NLP` `Python`
 
 ---
 
