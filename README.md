@@ -13,36 +13,50 @@
 ## 🧑‍💻 About Me
 
 - 🏫 **B.S. Computer Science** — 한국외국어대학교 (HUFS), 23학번 · 2025년 편입 · 2027년 졸업 예정 · GPA **4.0 / 4.5**
-- 🎯 **Research Interest** — Computer Vision, LLM Integration, Autonomous Driving
-- 🔬 **Current Focus** — CodeViva (Capstone), AI Competition, 대학원 준비
+- 🎯 **Research Interest** — Computer Vision, Medical AI, LLM Integration, Autonomous Driving
+- 🔬 **Current Focus** — Medintech 인턴 (후두경 가이드 AI), 대학원 진학 준비
 - 📍 **Location** — Seoul, South Korea
 
 | 등급 | 과목 |
 |---|---|
-| **A+** | 머신러닝 · 딥러닝 · 자료구조 · 자료구조와 알고리즘 · 이산수학 |
-| **A** | 알고리즘 |
+| **A+** | 머신러닝 · 딥러닝 · 딥러닝응용 · 캡스톤설계및실습 · 컴퓨터구조 · 자료구조 · 자료구조와 알고리즘 · 이산수학 |
+| **A** | 알고리즘 · 논리회로 |
 
 ---
 
-## 🏆 Awards & Competitions
+## 🏆 Awards & Activities
 
 | Date | Event | Result |
 |------|-------|--------|
-| 2026.06 | **한국외국어대학교 G-RISE 캡스톤디자인 경진대회** | 🥈 최우수상 · G-RISE 단장상 |
+| 2026.07 ~ 2026.08 | **Medintech 하계 방학 인턴** — AI 개발 (후두경 가이드) | 🔬 진행 중 |
+| 2026.06 | **한국외국어대학교 컴퓨터공학과 캡스톤디자인** | 🥇 최우수상 (1위) |
+| 2026.06 | **한국외국어대학교 G-RISE 캡스톤디자인 경진대회** | 🥈 최우수상 (2위) · G-RISE 단장상 |
 | 2026.05 | **Dacon 모기 비행 궤적 예측 AI 경진대회** | 참가 |
-| 2026.04 ~ | **현대자동차 H-모빌리티 클래스** (자율주행 판단 트랙) | ✅ 합격 · 참가 중 |
+| 2026.04 ~ 2026.06 | **현대자동차 H-모빌리티 클래스** (자율주행 판단 트랙) | ✅ 수료 |
 | 2026.04 | **Dacon 스마트 창고 출고 지연 예측 AI 경진대회** | 상위 2.9% |
 | 2026.03 | **Dacon 월간 구조물 안정성 물리 추론 AI 경진대회** | 상위 1% |
-| 2025.10 | **경기도 AI 테크데이** | 🥉 우수상 |
+| 2025.10 | **경기도 AI 테크데이** | 🥉 우수상 (3위) |
 | 2025.08 | **NVIDIA AI Bootcamp** | 🥇 1위 |
 
 ---
 
 ## 🚀 Projects
 
-### 🗣️ CodeViva *(Capstone Design, 2026.03 ~ )*
+### 🩺 Laryngoscope Guidance AI *(Medintech Internship · 2026.07 ~ 2026.08)*
+> 후두경 삽입 방향을 실시간으로 가이드하는 AI (하계 방학 인턴)
+
+- 후두경(laryngoscope) 삽입 **방향을 실시간으로 안내**하는 가이드 AI 개발
+- 오픈소스 **Detection OBB(Oriented Bounding Box) 모델 전이학습**
+- PyTorch 모델을 **TensorRT로 최적화** → **Jetson Orin Nano**에서 실시간 추론
+- 모형(팬텀)에서 수집된 데이터를 대상으로 **데이터 라벨링부터 전반적인 프로젝트 담당**
+- `PyTorch` `OBB Detection` `Transfer Learning` `TensorRT` `Jetson Orin Nano` `Real-time Inference` `Data Labeling`
+
+---
+
+### 🗣️ CodeViva *(Capstone Design · 2026.03 ~ 2026.06)*
 > 학생이 제출한 코드를 음성 설명으로 이해도를 검증하는 AI 시스템
 
+- 🏆 한국외국어대학교 컴퓨터공학과 캡스톤디자인 **최우수상 (1위)** · G-RISE 캡스톤디자인 경진대회 **최우수상 (2위)**
 - 음성 답변을 Whisper STT로 텍스트화 → LLM-as-a-Judge로 코드 이해도 평가
 - 단순 정답 여부가 아닌 **실제 이해 여부**를 검증하는 교육 보조 시스템
 - 오픈소스 LLM(**EXAONE 3.5 7.8B · Mi:dm 2.0 11.5B · Qwen3 14B**)을 **Curriculum SFT**로 파인튜닝
@@ -51,7 +65,7 @@
 
 ---
 
-### 👴 Elder Ease *(NVIDIA AI Bootcamp 2025, 🥇 1위 /	경기도 AI 테크데이 2025, 🥉 우수상)*
+### 👴 Elder Ease *(2025.08 ~ 2025.10 · NVIDIA AI Bootcamp 🥇 1위 / 경기도 AI 테크데이 🥉 우수상)*
 > 디지털 소외계층을 위한 AI 키오스크 접근성 보조 시스템
 
 - 얼굴 감지 + 연령 추정 CV 파이프라인 → 고령 사용자 자동 인식
@@ -62,7 +76,7 @@
 
 ---
 
-### 🔐 AEGIS — Invisible Watermark & Tamper Detection *(DL Project, 🥇 1위)*
+### 🔐 AEGIS — Invisible Watermark & Tamper Detection *(DL Project · 2025.09 ~ 2025.12 · 🥇 1위)*
 > 생성형 AI 이미지 위변조(Deepfake) 대응을 위한 비가시성 워터마크 삽입 + 변조 탐지 시스템
 
 - EditGuard 기반 파인튜닝으로 성능 개선 (PSNR 38.9 → 41.54 dB, 검증 정확도 95% → 98%)
@@ -133,6 +147,11 @@
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 `Tailscale` `tmux` `VS Code Remote SSH`
 
+**Edge / Deployment**
+
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Jetson Orin Nano](https://img.shields.io/badge/Jetson_Orin_Nano-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
 **AI Tools**
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
@@ -161,7 +180,7 @@
 ## 🔭 Interests
 
 `Autonomous Driving` `Computer Vision` `LLM Application` `Multimodal AI`  
-`Bio-AI` `Aerospace` `Big Data Analytics` `Robotics` `Data Engineering`
+`Medical AI` `Bio-AI` `Aerospace` `Big Data Analytics` `Robotics` `Data Engineering`
 
 ---
 
