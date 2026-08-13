@@ -14,7 +14,7 @@
 
 - 🏫 **B.S. Computer Science** — 한국외국어대학교 (HUFS), 23학번 · 2025년 편입 · 2027년 졸업 예정 · GPA **4.0 / 4.5**
 - 🎯 **Research Interest** — Computer Vision, Medical AI, LLM Integration, Autonomous Driving
-- 🔬 **Current Focus** — Medintech 인턴 (후두경 가이드 AI), 대학원 진학 준비
+- 🔬 **Current Focus** — Medintech 하계+2학기 인턴 (후두경 가이드 AI), 대학원 진학 준비
 - 📍 **Location** — Seoul, South Korea
 
 | 등급 | 과목 |
@@ -28,7 +28,7 @@
 
 | Date | Event | Result |
 |------|-------|--------|
-| 2026.07 ~ 2026.08 | **Medintech 하계 방학 인턴** — AI 개발 (후두경 가이드) | 🔬 진행 중 |
+| 2026.07 ~ 2026.12 | **Medintech 하계+2학기 인턴** — AI 개발 (후두경 가이드) | 🔬 진행 중 |
 | 2026.06 | **한국외국어대학교 컴퓨터공학과 캡스톤디자인** | 🥇 최우수상 (1위) |
 | 2026.06 | **한국외국어대학교 G-RISE 캡스톤디자인 경진대회** | 🥈 최우수상 (2위) · G-RISE 단장상 |
 | 2026.05 | **Dacon 모기 비행 궤적 예측 AI 경진대회** | 참가 |
@@ -42,8 +42,8 @@
 
 ## 🚀 Projects
 
-### 🩺 Laryngoscope Guidance AI *(Medintech Internship · 2026.07 ~ 2026.08)*
-> 후두경 삽입 방향을 실시간으로 가이드하는 AI (하계 방학 인턴)
+### 🩺 Laryngoscope Guidance AI *(Medintech Internship · 2026.07 ~ 2026.12)*
+> 후두경 삽입 방향을 실시간으로 가이드하는 AI (하계+2학기 인턴)
 
 - 후두경(laryngoscope) 삽입 **방향을 실시간으로 안내**하는 가이드 AI 개발
 - 오픈소스 **Detection OBB(Oriented Bounding Box) 모델 전이학습**
