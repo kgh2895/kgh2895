@@ -46,10 +46,12 @@
 > 후두경 삽입 방향을 실시간으로 가이드하는 AI (하계+2학기 인턴)
 
 - 후두경(laryngoscope) 삽입 **방향을 실시간으로 안내**하는 가이드 AI 개발
-- 오픈소스 **Detection OBB(Oriented Bounding Box) 모델 전이학습**
+- **RTMDet 기반 회전 bbox(OBB) 검출 모델 전이학습** — 블레이드·후두개·피열연골·성문 검출
+- 성문 타깃점 기반 **8방향 중앙 정렬 + 단계별 색상(빨강·노랑·초록) 가이드** 상태 판정 로직 설계 (2026.09 시연)
+- **임상 영상 기반 성문·후두개 2클래스 모델**에 맞춰 정렬 가이드 재설계 · 프레임 판정 모듈 + 단위 테스트 구현
 - PyTorch 모델을 **TensorRT로 최적화** → **Jetson Orin Nano**에서 실시간 추론
-- 모형(팬텀)에서 수집된 데이터를 대상으로 **데이터 라벨링부터 전반적인 프로젝트 담당**
-- `PyTorch` `OBB Detection` `Transfer Learning` `TensorRT` `Jetson Orin Nano` `Real-time Inference` `Data Labeling`
+- 모형(팬텀) 데이터 라벨링과 전용 라벨링 툴(**G-anylabeling**) 제작부터 **전반적인 프로젝트 담당**
+- `PyTorch` `RTMDet` `OBB Detection` `Transfer Learning` `TensorRT` `Jetson Orin Nano` `Real-time Inference` `Medical Imaging` `Data Labeling`
 
 ---
 
