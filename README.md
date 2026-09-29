@@ -4,7 +4,7 @@
 
 **AI/ML Engineer in Progress**
 
-> *"컴퓨터공학을 전공하며 AI/ML, Computer Vision, LLM 응용을 중심으로 공부하고 있는 학부생입니다."*
+> *"컴퓨터공학 전공으로 CV·LLM 프로젝트와 온디바이스 추론 경험을 쌓았으며, Efficient Multimodal AI와 로봇에 적용되는 AI 모델을 공부하고 있습니다."*
 
 </div>
 
@@ -12,14 +12,13 @@
 
 ## 🧑‍💻 About Me
 
-- 🏫 **B.S. Computer Science** — 한국외국어대학교 (HUFS), 23학번 · 2025년 편입 · 2027년 졸업 예정 · GPA **4.0 / 4.5**
-- 🎯 **Research Interest** — Computer Vision, Medical AI, LLM Integration, Autonomous Driving
-- 🔬 **Current Focus** — Medintech 하계+2학기 인턴 (후두경 가이드 AI), 대학원 진학 준비
-- 📍 **Location** — Seoul, South Korea
+- 🏫 **B.S. Computer Engineering** — 한국외국어대학교 (HUFS), 23학번 · 2025년 편입 · 2027년 2월 졸업 예정 · GPA **4.02 / 4.50**
+- 🎯 **Research Interests** — Efficient Multimodal AI · Vision-Language Models · Model Compression & Edge AI · Embodied AI
+- 🔬 **Current Focus** — Medintech AI 인턴 (실시간 시각 인식·TensorRT/Jetson 배포), 대학원 진학 준비
 
 | 등급 | 과목 |
 |---|---|
-| **A+** | 머신러닝 · 딥러닝 · 딥러닝응용 · 캡스톤설계및실습 · 컴퓨터구조 · 자료구조 · 자료구조와 알고리즘 · 이산수학 |
+| **A+** | 머신러닝 · 딥러닝 · 딥러닝응용 · 캡스톤설계및실습 · 컴퓨터구조 · 자료구조 · 자료구조와 알고리즘 · 이산수학|
 | **A** | 알고리즘 · 논리회로 |
 
 ---
@@ -33,7 +32,7 @@
 | 2026.06 | **한국외국어대학교 G-RISE 캡스톤디자인 경진대회** | 🥈 최우수상 (2위) · G-RISE 단장상 |
 | 2026.05 | **Dacon 모기 비행 궤적 예측 AI 경진대회** | 참가 |
 | 2026.04 ~ 2026.06 | **현대자동차 H-모빌리티 클래스** (자율주행 판단 트랙) | ✅ 수료 |
-| 2026.04 | **Dacon 스마트 창고 출고 지연 예측 AI 경진대회** | 상위 2.9% |
+| 2026.04 | **Dacon 월간 스마트 창고 출고 지연 예측 AI 경진대회** | 상위 2.9% |
 | 2026.03 | **Dacon 월간 구조물 안정성 물리 추론 AI 경진대회** | 상위 1% |
 | 2025.10 | **경기도 AI 테크데이** | 🥉 우수상 (3위) |
 | 2025.08 | **NVIDIA AI Bootcamp** | 🥇 1위 |
@@ -42,16 +41,15 @@
 
 ## 🚀 Projects
 
-### 🩺 Laryngoscope Guidance AI *(Medintech Internship · 2026.07 ~ 2026.12)*
-> 후두경 삽입 방향을 실시간으로 가이드하는 AI (하계+2학기 인턴)
+### 🩺 Laryngoscope Guidance AI *(Medintech Internship · 2026.07 ~ 진행 중)*
+> 후두경 영상에서 주요 구조를 인식하고 삽입 방향을 실시간으로 안내하는 AI 시스템 개발
 
-- 후두경(laryngoscope) 삽입 **방향을 실시간으로 안내**하는 가이드 AI 개발
-- **RTMDet 기반 회전 bbox(OBB) 검출 모델 전이학습** — 블레이드·후두개·피열연골·성문 검출
-- 성문 타깃점 기반 **8방향 중앙 정렬 + 단계별 색상(빨강·노랑·초록) 가이드** 상태 판정 로직 설계 (2026.09 시연)
-- **임상 영상 기반 성문·후두개 2클래스 모델**에 맞춰 정렬 가이드 재설계 · 프레임 판정 모듈 + 단위 테스트 구현
-- PyTorch 모델을 **TensorRT로 최적화** → **Jetson Orin Nano**에서 실시간 추론
-- 모형(팬텀) 데이터 라벨링과 전용 라벨링 툴(**G-anylabeling**) 제작부터 **전반적인 프로젝트 담당**
-- `PyTorch` `RTMDet` `OBB Detection` `Transfer Learning` `TensorRT` `Jetson Orin Nano` `Real-time Inference` `Medical Imaging` `Data Labeling`
+- **RTMDet 기반 회전 객체 검출(OBB)** 모델의 데이터 준비·전이학습·추론 파이프라인 개발
+- Hard-negative 활용, 라벨링 기준 정비 및 입력 해상도 실험으로 검출 안정성 개선
+- **TensorRT FP16**을 이용해 **NVIDIA Jetson Orin Nano**에 모델 배포 및 실시간 추론 구현
+- **FP16·INT8 PTQ** 정확도–지연시간 트레이드오프 평가 및 혼합 정밀도 QAT 검토
+- **8방향 정렬 가이드**와 C++ 추론 파이프라인 구현, 프레임 단위 판정 로직 및 테스트 작성
+- `PyTorch` `RTMDet` `OBB Detection` `Transfer Learning` `TensorRT` `Jetson Orin Nano` `Real-time Inference` `Medical Imaging`
 
 ---
 
@@ -99,9 +97,9 @@
 
 ---
 
-## 📄 Paper Reviews
+## 📄 Research Reading
 
-5개 도메인, 약 24편 자기주도 리뷰 (Notion 구조화 마크다운 템플릿 사용)
+관심 분야의 논문을 읽고 주요 개념·연구 방법을 정리하고 있습니다.
 
 | Domain | Key Topics |
 |--------|-----------|
@@ -110,8 +108,6 @@
 | Computer Vision | Detection, Segmentation, Depth Estimation, U-Net, Grad-CAM, YOLO |
 | AI Robustness / XAI | Adversarial Attacks, Robustness, XAI, Verification |
 | Robotics / Systems | Autonomous Driving, VLA, Sensor Fusion, Alpamayo-R1, ADR |
-
-📝 [논문 리뷰 Notion 바로가기](https://www.notion.so/2e108a455ffa8013b882c253c8b38f55?source=copy_link)
 
 ---
 
@@ -163,7 +159,7 @@
 `Codex CLI` `Gemini CLI`
 
 ---
-## 📜 Certifications
+## 📜 Certifications & Training
 
 - 🏅 **NVIDIA Certified Associate** — Generative AI & LLMs (2025.11 – 2027.11)
 - 🏅 **NVIDIA DLI Certificate × 7** — 심화 과정 수료 (2025.07 – 2025.08)
@@ -176,21 +172,21 @@
   - Rapid Application Development with Large Language Models (LLMs)
 - 🏅 **NVIDIA AI 전문인력 양성과정** — 304h 수료
 - 🏅 **TOPA Level 2** — Python Coding (2025.07)
+- ✅ **Hyundai NGV H-Mobility Class** — 자율주행 판단 트랙 (2026.04 ~ 2026.06)
+- ✅ **Hyundai NGV H-Mobility Class** — Car Inside Out (2026.04 ~ 2026.06)
 
 ---
 
 ## 🔭 Interests
 
-`Autonomous Driving` `Computer Vision` `LLM Application` `Multimodal AI`  
-`Medical AI` `Bio-AI` `Aerospace` `Big Data Analytics` `Robotics` `Data Engineering`
+`Efficient Multimodal AI` `Vision-Language Models` `Embodied AI` `Model Compression` `Quantization` `Edge AI`
 
 ---
 
 ## 📬 Contact
 
-[![Gmail](https://img.shields.io/badge/kgh2895@naver.com-EA4335?style=flat-square&logo=naver&logoColor=white)](mailto:kgh2895@naver.com)
+[![HUFS Email](https://img.shields.io/badge/HUFS_Email-0A66C2?style=flat-square&logo=gmail&logoColor=white)](mailto:kgh2895@hufs.ac.kr)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EA%B7%BC%ED%98%B8-%EA%B9%80-43b03a378/)
-[![Notion](https://img.shields.io/badge/Paper_Reviews-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/2e108a455ffa8013b882c253c8b38f55?source=copy_link)
 
 ---
 
